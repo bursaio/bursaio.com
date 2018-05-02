@@ -633,13 +633,14 @@ Medium İçerik
 }
 
 .blog-post{
-    border: 1px solid white;
     margin-bottom: 10px;
 }
 
 img.img-responsive{
     width: 90%;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
     height: 180px;
 }
 

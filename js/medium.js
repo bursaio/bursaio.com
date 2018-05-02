@@ -7,13 +7,8 @@ $(function () {
 		if (response.status == 'ok') {
 			var output = '';
 			$.each(response.items, function (k, item) {
-				var visibleSm;
-				if(k < 3){
-					visibleSm = '';
-				 } else {
-					 visibleSm = ' visible-sm';
-				 }
-				output += '<div class="col-md-12 mb-5' + visibleSm + '">';
+				
+				output += '<div class="col-md-12">';
 				output += '<div class="blog-post"><header>';
 				// output += '<h4 class="date">' + item.pubDate + "</h4>";
 				var tagIndex = item.description.indexOf('<img'); // Find where the img tag starts
@@ -32,7 +27,7 @@ $(function () {
 				trimmedString = trimmedString.substr(0, Math.min(trimmedString.length, trimmedString.lastIndexOf(" ")))
 				output += '<p>' + trimmedString + '...</p>';
 				output += '</div></div></div>';
-				return k <5;
+				return k ;
 			});
 			$content.html(output);
 		}
