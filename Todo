@@ -2,12 +2,14 @@ Todo
 	
 
 
-4. Giriş sayfası yapıp ilgili linkleri ve bağlantıları ekleyeceğiz (barış)
-5. Medium içerikleri listeyeceez (barış)
-3. Ana sayfası oluştur (barış)
-2. bursaio.com domaini githubdan çalıştır (fuat)
-6. İnstgramdan fotoları listeyecez (fuat)
-7. Meetupdan buluşmalar gösterilecek (fuat)
+- Giriş sayfası yapıp ilgili linkleri ve bağlantıları ekleyeceğiz (barış)
+- Medium içerikleri listeyeceez (barış)
+- Ana sayfası oluştur (barış)
+
++ bursaio.com domaini githubdan çalıştır (fuat)
+	ilgili reponun settings kısmından domain tanımlanabiliyor
+- İnstgramdan fotoları listeyecez (fuat)
+- Meetupdan buluşmalar gösterilecek (fuat)
 
 
 
