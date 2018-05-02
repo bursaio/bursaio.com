@@ -13,9 +13,9 @@ $(function () {
 				 } else {
 					 visibleSm = ' visible-sm';
 				 }
-				output += '<div class="col-md-12' + visibleSm + '">';
+				output += '<div class="col-md-12 mb-5' + visibleSm + '">';
 				output += '<div class="blog-post"><header>';
-				output += '<h4 class="date">' + item.pubDate + "</h4>";
+				// output += '<h4 class="date">' + item.pubDate + "</h4>";
 				var tagIndex = item.description.indexOf('<img'); // Find where the img tag starts
 				var srcIndex = item.description.substring(tagIndex).indexOf('src=') + tagIndex; // Find where the src attribute starts
 				var srcStart = srcIndex + 5; // Find where the actual image URL starts; 5 for the length of 'src="'

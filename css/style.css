@@ -629,9 +629,19 @@ Medium İçerik
 */
 #Medium{
     overflow-y: scroll;
-    max-height: 300px;
+    max-height: 220px;
 }
 
+.blog-post{
+    border: 1px solid white;
+    margin-bottom: 10px;
+}
+
+img.img-responsive{
+    width: 90%;
+    margin: auto;
+    height: 180px;
+}
 
 /*------------------------------------*\
 	About
