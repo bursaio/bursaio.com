@@ -632,17 +632,21 @@ Medium İçerik
     max-height: 220px;
 }
 
+#Medium a{
+    color: #90c052;
+}
 .blog-post{
     margin-bottom: 10px;
 }
 
-img.img-responsive{
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    height: 180px;
+#Medium h4{
+    margin-bottom: 0;
 }
+
+#Medium span{
+    text-align: left;
+}
+
 
 /*------------------------------------*\
 	About
