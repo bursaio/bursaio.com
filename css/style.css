@@ -631,7 +631,9 @@ Medium İçerik
     overflow-y: scroll;
     max-height: 220px;
 }
-
+#Medium a{
+    color:#90c052;
+}
 .blog-post{
     margin-bottom: 10px;
 }
