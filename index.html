@@ -1,289 +1,958 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet" >
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="devicons.min.css">
-    <link rel="stylesheet" href="simple-line-icons.css">
-    <link rel="stylesheet" href="resume.min.css">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<title>HTML Template</title>
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet">
+
+	<!-- Bootstrap -->
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+
+	<!-- Owl Carousel -->
+	<link type="text/css" rel="stylesheet" href="css/owl.carousel.css" />
+	<link type="text/css" rel="stylesheet" href="css/owl.theme.default.css" />
+
+	<!-- Magnific Popup -->
+	<link type="text/css" rel="stylesheet" href="css/magnific-popup.css" />
+
+	<!-- Font Awesome Icon -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
 </head>
-<body id="page-top">
-    <!-- Profil Tab-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">
-          <span class="d-block d-lg-none">Start Bootstrap</span>
-          <span class="d-none d-lg-block">
-            <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="bursaio.jpg" alt="BursaI/O">
-          </span>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#education">Education</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
-            </li>
-          </ul>
-        </div>
-    </nav>
-    <div class="container-fluid p-0">
 
-      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
-        <div class="my-auto">
-          <h1 class="mb-0">Clarence
-            <span class="text-primary">Taylor</span>
-          </h1>
-          <div class="subheading mb-5">3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 ·
-            <a href="mailto:name@email.com">name@email.com</a>
-          </div>
-          <p class="mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
-          <ul class="list-inline list-social-icons mb-0">
-            <li class="list-inline-item">
-              <a href="#">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
+<body>
+	<!-- Header -->
+	<header id="home">
+		<!-- Background Image -->
+		<div class="bg-img" style="background-image: url('./img/background1.jpg');">
+			<div class="overlay"></div>
+		</div>
+		<!-- /Background Image -->
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
-        <div class="my-auto">
-          <h2 class="mb-5">Experience</h2>
+		<!-- Nav -->
+		<nav id="nav" class="navbar nav-transparent">
+			<div class="container">
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Senior Web Developer</h3>
-              <div class="subheading mb-3">Intelitec Solutions</div>
-              <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">March 2013 - Present</span>
-            </div>
-          </div>
+				<div class="navbar-header">
+					<!-- Logo -->
+					<div class="navbar-brand">
+						<a href="index.html">
+							<img class="logo" src="img/logo.png" alt="logo">
+							<img class="logo-alt" src="img/logo-alt.png" alt="logo">
+						</a>
+					</div>
+					<!-- /Logo -->
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Web Developer</h3>
-              <div class="subheading mb-3">Intelitec Solutions</div>
-              <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">December 2011 - March 2013</span>
-            </div>
-          </div>
+					<!-- Collapse nav button -->
+					<div class="nav-collapse">
+						<span></span>
+					</div>
+					<!-- /Collapse nav button -->
+				</div>
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Junior Web Designer</h3>
-              <div class="subheading mb-3">Shout! Media Productions</div>
-              <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">July 2010 - December 2011</span>
-            </div>
-          </div>
+				<!--  Main navigation  -->
+				<ul class="main-nav nav navbar-nav navbar-right">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#service">Services</a></li>
+					<li><a href="#pricing">Prices</a></li>
+					<li><a href="#team">Team</a></li>
+					<li class="has-dropdown"><a href="#blog">Blog</a>
+						<ul class="dropdown">
+							<li><a href="blog-single.html">blog post</a></li>
+						</ul>
+					</li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+				<!-- /Main navigation -->
 
-          <div class="resume-item d-flex flex-column flex-md-row">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Web Design Intern</h3>
-              <div class="subheading mb-3">Shout! Media Productions</div>
-              <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">September 2008 - June 2010</span>
-            </div>
-          </div>
+			</div>
+		</nav>
+		<!-- /Nav -->
 
-        </div>
+		<!-- home wrapper -->
+		<div class="home-wrapper">
+			<div class="container">
+				<div class="row">
 
-      </section>
+					<!-- home content -->
+					<div class="col-md-10 col-md-offset-1">
+						<div class="home-content">
+							<h1 class="white-text">We Are Creative Agency</h1>
+							<p class="white-text">Morbi mattis felis at nunc. Duis viverra diam non justo. In nisl. Nullam sit amet magna in magna gravida vehicula. Mauris tincidunt sem sed arcu. Nunc posuere.
+							</p>
+							<button class="white-btn">Get Started!</button>
+							<button class="main-btn">Learn more</button>
+						</div>
+					</div>
+					<!-- /home content -->
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
-        <div class="my-auto">
-          <h2 class="mb-5">Education</h2>
+				</div>
+			</div>
+		</div>
+		<!-- /home wrapper -->
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">University of Colorado Boulder</h3>
-              <div class="subheading mb-3">Bachelor of Science</div>
-              <div>Computer Science - Web Development Track</div>
-              <p>GPA: 3.23</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">August 2006 - May 2010</span>
-            </div>
-          </div>
+	</header>
+	<!-- /Header -->
 
-          <div class="resume-item d-flex flex-column flex-md-row">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">James Buchanan High School</h3>
-              <div class="subheading mb-3">Technology Magnet Program</div>
-              <p>GPA: 3.56</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">August 2002 - May 2006</span>
-            </div>
-          </div>
+	<!-- About -->
+	<div id="about" class="section md-padding">
 
-        </div>
-      </section>
+		<!-- Container -->
+		<div class="container">
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
-        <div class="my-auto">
-          <h2 class="mb-5">Skills</h2>
+			<!-- Row -->
+			<div class="row">
 
-          <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-          <ul class="list-inline list-icons">
-            <li class="list-inline-item">
-              <i class="devicons devicons-html5"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-css3"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-javascript"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-jquery"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-sass"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-less"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-bootstrap"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-wordpress"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-grunt"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-gulp"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-npm"></i>
-            </li>
-          </ul>
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">Welcome to Website</h2>
+				</div>
+				<!-- /Section header -->
 
-          <div class="subheading mb-3">Workflow</div>
-          <ul class="fa-ul mb-0">
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Mobile-First, Responsive Design</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Cross Browser Testing &amp; Debugging</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Cross Functional Teams</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Agile Development &amp; Scrum</li>
-          </ul>
-        </div>
-      </section>
+				<!-- about -->
+				<div class="col-md-4">
+					<div class="about">
+						<i class="fa fa-cogs"></i>
+						<h3>Fully Customizible</h3>
+						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</p>
+						<a href="#">Read more</a>
+					</div>
+				</div>
+				<!-- /about -->
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
-        <div class="my-auto">
-          <h2 class="mb-5">Interests</h2>
-          <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skiier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-          <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technolgy advancements in the front-end web development world.</p>
-        </div>
-      </section>
+				<!-- about -->
+				<div class="col-md-4">
+					<div class="about">
+						<i class="fa fa-magic"></i>
+						<h3>Awesome Features</h3>
+						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</p>
+						<a href="#">Read more</a>
+					</div>
+				</div>
+				<!-- /about -->
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
-        <div class="my-auto">
-          <h2 class="mb-5">Awards &amp; Certifications</h2>
-          <ul class="fa-ul mb-0">
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              Google Analytics Certified Developer</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              Mobile Web Specialist - Google Certification</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              1<sup>st</sup>
-              Place - University of Colorado Boulder - Emerging Tech Competition 2009</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              1<sup>st</sup>
-              Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              2<sup>nd</sup>
-              Place - University of Colorado Boulder - Emerging Tech Competition 2008</li>
-            <li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              1<sup>st</sup>
-              Place - James Buchanan High School - Hackathon 2006</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              3<sup>rd</sup>
-              Place - James Buchanan High School - Hackathon 2005</li>
-          </ul>
-        </div>
-      </section>
+				<!-- about -->
+				<div class="col-md-4">
+					<div class="about">
+						<i class="fa fa-mobile"></i>
+						<h3>Fully Responsive</h3>
+						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</p>
+						<a href="#">Read more</a>
+					</div>
+				</div>
+				<!-- /about -->
 
-    </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-  <script src="resume.min.js"></script>
-  <script src="jquery.easing.min.js"></script>
-  <script src="bootstrap.bundle.min.js"></script>
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /About -->
+
+
+	<!-- Portfolio -->
+	<div id="portfolio" class="section md-padding bg-grey">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">Featured Works</h2>
+				</div>
+				<!-- /Section header -->
+
+				<!-- Work -->
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="./img/work1.jpg" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>Category</span>
+						<h3>Lorem ipsum dolor</h3>
+						<div class="work-link">
+							<a href="#"><i class="fa fa-external-link"></i></a>
+							<a class="lightbox" href="./img/work1.jpg"><i class="fa fa-search"></i></a>
+						</div>
+					</div>
+				</div>
+				<!-- /Work -->
+
+				<!-- Work -->
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="./img/work2.jpg" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>Category</span>
+						<h3>Lorem ipsum dolor</h3>
+						<div class="work-link">
+							<a href="#"><i class="fa fa-external-link"></i></a>
+							<a class="lightbox" href="./img/work2.jpg"><i class="fa fa-search"></i></a>
+						</div>
+					</div>
+				</div>
+				<!-- /Work -->
+
+				<!-- Work -->
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="./img/work3.jpg" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>Category</span>
+						<h3>Lorem ipsum dolor</h3>
+						<div class="work-link">
+							<a href="#"><i class="fa fa-external-link"></i></a>
+							<a class="lightbox" href="./img/work3.jpg"><i class="fa fa-search"></i></a>
+						</div>
+					</div>
+				</div>
+				<!-- /Work -->
+
+				<!-- Work -->
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="./img/work4.jpg" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>Category</span>
+						<h3>Lorem ipsum dolor</h3>
+						<div class="work-link">
+							<a href="#"><i class="fa fa-external-link"></i></a>
+							<a class="lightbox" href="./img/work4.jpg"><i class="fa fa-search"></i></a>
+						</div>
+					</div>
+				</div>
+				<!-- /Work -->
+
+				<!-- Work -->
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="./img/work5.jpg" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>Category</span>
+						<h3>Lorem ipsum dolor</h3>
+						<div class="work-link">
+							<a href="#"><i class="fa fa-external-link"></i></a>
+							<a class="lightbox" href="./img/work5.jpg"><i class="fa fa-search"></i></a>
+						</div>
+					</div>
+				</div>
+				<!-- /Work -->
+
+				<!-- Work -->
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="./img/work6.jpg" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>Category</span>
+						<h3>Lorem ipsum dolor</h3>
+						<div class="work-link">
+							<a href="#"><i class="fa fa-external-link"></i></a>
+							<a class="lightbox" href="./img/work6.jpg"><i class="fa fa-search"></i></a>
+						</div>
+					</div>
+				</div>
+				<!-- /Work -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Portfolio -->
+
+	<!-- Service -->
+	<div id="service" class="section md-padding">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">What we offer</h2>
+				</div>
+				<!-- /Section header -->
+
+				<!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="fa fa-diamond"></i>
+						<h3>App Development</h3>
+						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
+					</div>
+				</div>
+				<!-- /service -->
+
+				<!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="fa fa-rocket"></i>
+						<h3>Graphic Design</h3>
+						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
+					</div>
+				</div>
+				<!-- /service -->
+
+				<!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="fa fa-cogs"></i>
+						<h3>Creative Idea</h3>
+						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
+					</div>
+				</div>
+				<!-- /service -->
+
+				<!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="fa fa-diamond"></i>
+						<h3>Marketing</h3>
+						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
+					</div>
+				</div>
+				<!-- /service -->
+
+				<!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="fa fa-pencil"></i>
+						<h3>Awesome Support</h3>
+						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
+					</div>
+				</div>
+				<!-- /service -->
+
+				<!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="fa fa-flask"></i>
+						<h3>Brand Design</h3>
+						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
+					</div>
+				</div>
+				<!-- /service -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Service -->
+
+
+	<!-- Why Choose Us -->
+	<div id="features" class="section md-padding bg-grey">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- why choose us content -->
+				<div class="col-md-6">
+					<div class="section-header">
+						<h2 class="title">Why Choose Us</h2>
+					</div>
+					<p>Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris. Ultrices sagittis orci a scelerisque purus.</p>
+					<div class="feature">
+						<i class="fa fa-check"></i>
+						<p>Quis varius quam quisque id diam vel quam elementum.</p>
+					</div>
+					<div class="feature">
+						<i class="fa fa-check"></i>
+						<p>Mauris augue neque gravida in fermentum.</p>
+					</div>
+					<div class="feature">
+						<i class="fa fa-check"></i>
+						<p>Orci phasellus egestas tellus rutrum.</p>
+					</div>
+					<div class="feature">
+						<i class="fa fa-check"></i>
+						<p>Nec feugiat nisl pretium fusce id velit ut tortor pretium.</p>
+					</div>
+				</div>
+				<!-- /why choose us content -->
+
+				<!-- About slider -->
+				<div class="col-md-6">
+					<div id="about-slider" class="owl-carousel owl-theme">
+						<img class="img-responsive" src="./img/about1.jpg" alt="">
+						<img class="img-responsive" src="./img/about2.jpg" alt="">
+						<img class="img-responsive" src="./img/about1.jpg" alt="">
+						<img class="img-responsive" src="./img/about2.jpg" alt="">
+					</div>
+				</div>
+				<!-- /About slider -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Why Choose Us -->
+
+
+	<!-- Numbers -->
+	<div id="numbers" class="section sm-padding">
+
+		<!-- Background Image -->
+		<div class="bg-img" style="background-image: url('./img/background2.jpg');">
+			<div class="overlay"></div>
+		</div>
+		<!-- /Background Image -->
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- number -->
+				<div class="col-sm-3 col-xs-6">
+					<div class="number">
+						<i class="fa fa-users"></i>
+						<h3 class="white-text"><span class="counter">451</span></h3>
+						<span class="white-text">Happy clients</span>
+					</div>
+				</div>
+				<!-- /number -->
+
+				<!-- number -->
+				<div class="col-sm-3 col-xs-6">
+					<div class="number">
+						<i class="fa fa-trophy"></i>
+						<h3 class="white-text"><span class="counter">12</span></h3>
+						<span class="white-text">Awards won</span>
+					</div>
+				</div>
+				<!-- /number -->
+
+				<!-- number -->
+				<div class="col-sm-3 col-xs-6">
+					<div class="number">
+						<i class="fa fa-coffee"></i>
+						<h3 class="white-text"><span class="counter">154</span>K</h3>
+						<span class="white-text">Cups of Coffee</span>
+					</div>
+				</div>
+				<!-- /number -->
+
+				<!-- number -->
+				<div class="col-sm-3 col-xs-6">
+					<div class="number">
+						<i class="fa fa-file"></i>
+						<h3 class="white-text"><span class="counter">45</span></h3>
+						<span class="white-text">Projects completed</span>
+					</div>
+				</div>
+				<!-- /number -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Numbers -->
+
+	<!-- Pricing -->
+	<div id="pricing" class="section md-padding">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">Pricing Table</h2>
+				</div>
+				<!-- /Section header -->
+
+				<!-- pricing -->
+				<div class="col-sm-4">
+					<div class="pricing">
+						<div class="price-head">
+							<span class="price-title">Basic plan</span>
+							<div class="price">
+								<h3>$9<span class="duration">/ month</span></h3>
+							</div>
+						</div>
+						<ul class="price-content">
+							<li>
+								<p>1GB Disk Space</p>
+							</li>
+							<li>
+								<p>100 Email Account</p>
+							</li>
+							<li>
+								<p>24/24 Support</p>
+							</li>
+						</ul>
+						<div class="price-btn">
+							<button class="outline-btn">Purchase now</button>
+						</div>
+					</div>
+				</div>
+				<!-- /pricing -->
+
+				<!-- pricing -->
+				<div class="col-sm-4">
+					<div class="pricing">
+						<div class="price-head">
+							<span class="price-title">Silver plan</span>
+							<div class="price">
+								<h3>$19<span class="duration">/ month</span></h3>
+							</div>
+						</div>
+						<ul class="price-content">
+							<li>
+								<p>1GB Disk Space</p>
+							</li>
+							<li>
+								<p>100 Email Account</p>
+							</li>
+							<li>
+								<p>24/24 Support</p>
+							</li>
+						</ul>
+						<div class="price-btn">
+							<button class="outline-btn">Purchase now</button>
+						</div>
+					</div>
+				</div>
+				<!-- /pricing -->
+
+				<!-- pricing -->
+				<div class="col-sm-4">
+					<div class="pricing">
+						<div class="price-head">
+							<span class="price-title">Gold plan</span>
+							<div class="price">
+								<h3>$39<span class="duration">/ month</span></h3>
+							</div>
+						</div>
+						<ul class="price-content">
+							<li>
+								<p>1GB Disk Space</p>
+							</li>
+							<li>
+								<p>100 Email Account</p>
+							</li>
+							<li>
+								<p>24/24 Support</p>
+							</li>
+						</ul>
+						<div class="price-btn">
+							<button class="outline-btn">Purchase now</button>
+						</div>
+					</div>
+				</div>
+				<!-- /pricing -->
+
+			</div>
+			<!-- Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Pricing -->
+
+
+	<!-- Testimonial -->
+	<div id="testimonial" class="section md-padding">
+
+		<!-- Background Image -->
+		<div class="bg-img" style="background-image: url('./img/background3.jpg');">
+			<div class="overlay"></div>
+		</div>
+		<!-- /Background Image -->
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Testimonial slider -->
+				<div class="col-md-10 col-md-offset-1">
+					<div id="testimonial-slider" class="owl-carousel owl-theme">
+
+						<!-- testimonial -->
+						<div class="testimonial">
+							<div class="testimonial-meta">
+								<img src="./img/perso1.jpg" alt="">
+								<h3 class="white-text">John Doe</h3>
+								<span>Web Designer</span>
+							</div>
+							<p class="white-text">Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris.</p>
+						</div>
+						<!-- /testimonial -->
+
+						<!-- testimonial -->
+						<div class="testimonial">
+							<div class="testimonial-meta">
+								<img src="./img/perso2.jpg" alt="">
+								<h3 class="white-text">John Doe</h3>
+								<span>Web Designer</span>
+							</div>
+							<p class="white-text">Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris.</p>
+						</div>
+						<!-- /testimonial -->
+
+					</div>
+				</div>
+				<!-- /Testimonial slider -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Testimonial -->
+
+	<!-- Team -->
+	<div id="team" class="section md-padding">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">Our Team</h2>
+				</div>
+				<!-- /Section header -->
+
+				<!-- team -->
+				<div class="col-sm-4">
+					<div class="team">
+						<div class="team-img">
+							<img class="img-responsive" src="./img/team1.jpg" alt="">
+							<div class="overlay">
+								<div class="team-social">
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-google-plus"></i></a>
+									<a href="#"><i class="fa fa-twitter"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3>John Doe</h3>
+							<span>Web Designer</span>
+						</div>
+					</div>
+				</div>
+				<!-- /team -->
+
+				<!-- team -->
+				<div class="col-sm-4">
+					<div class="team">
+						<div class="team-img">
+							<img class="img-responsive" src="./img/team2.jpg" alt="">
+							<div class="overlay">
+								<div class="team-social">
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-google-plus"></i></a>
+									<a href="#"><i class="fa fa-twitter"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3>John Doe</h3>
+							<span>Web Designer</span>
+						</div>
+					</div>
+				</div>
+				<!-- /team -->
+
+				<!-- team -->
+				<div class="col-sm-4">
+					<div class="team">
+						<div class="team-img">
+							<img class="img-responsive" src="./img/team3.jpg" alt="">
+							<div class="overlay">
+								<div class="team-social">
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-google-plus"></i></a>
+									<a href="#"><i class="fa fa-twitter"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3>John Doe</h3>
+							<span>Web Designer</span>
+						</div>
+					</div>
+				</div>
+				<!-- /team -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Team -->
+
+	<!-- Blog -->
+	<div id="blog" class="section md-padding bg-grey">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">Recents news</h2>
+				</div>
+				<!-- /Section header -->
+
+				<!-- blog -->
+				<div class="col-md-4">
+					<div class="blog">
+						<div class="blog-img">
+							<img class="img-responsive" src="./img/blog1.jpg" alt="">
+						</div>
+						<div class="blog-content">
+							<ul class="blog-meta">
+								<li><i class="fa fa-user"></i>John doe</li>
+								<li><i class="fa fa-clock-o"></i>18 Oct</li>
+								<li><i class="fa fa-comments"></i>57</li>
+							</ul>
+							<h3>Molestie at elementum eu facilisis sed odio</h3>
+							<p>Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.</p>
+							<a href="blog-single.html">Read more</a>
+						</div>
+					</div>
+				</div>
+				<!-- /blog -->
+
+				<!-- blog -->
+				<div class="col-md-4">
+					<div class="blog">
+						<div class="blog-img">
+							<img class="img-responsive" src="./img/blog2.jpg" alt="">
+						</div>
+						<div class="blog-content">
+							<ul class="blog-meta">
+								<li><i class="fa fa-user"></i>John doe</li>
+								<li><i class="fa fa-clock-o"></i>18 Oct</li>
+								<li><i class="fa fa-comments"></i>57</li>
+							</ul>
+							<h3>Molestie at elementum eu facilisis sed odio</h3>
+							<p>Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.</p>
+							<a href="blog-single.html">Read more</a>
+						</div>
+					</div>
+				</div>
+				<!-- /blog -->
+
+				<!-- blog -->
+				<div class="col-md-4">
+					<div class="blog">
+						<div class="blog-img">
+							<img class="img-responsive"  src="./img/blog3.jpg" alt="">
+						</div>
+						<div class="blog-content">
+							<ul class="blog-meta">
+								<li><i class="fa fa-user"></i>John doe</li>
+								<li><i class="fa fa-clock-o"></i>18 Oct</li>
+								<li><i class="fa fa-comments"></i>57</li>
+							</ul>
+							<h3>Molestie at elementum eu facilisis sed odio</h3>
+							<p>Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.</p>
+							<a href="blog-single.html">Read more</a>
+						</div>
+					</div>
+				</div>
+				<!-- /blog -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Blog -->
+
+	<!-- Contact -->
+	<div id="contact" class="section md-padding">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section-header -->
+				<div class="section-header text-center">
+					<h2 class="title">Get in touch</h2>
+				</div>
+				<!-- /Section-header -->
+
+				<!-- contact -->
+				<div class="col-sm-4">
+					<div class="contact">
+						<i class="fa fa-phone"></i>
+						<h3>Phone</h3>
+						<p>512-421-3940</p>
+					</div>
+				</div>
+				<!-- /contact -->
+
+				<!-- contact -->
+				<div class="col-sm-4">
+					<div class="contact">
+						<i class="fa fa-envelope"></i>
+						<h3>Email</h3>
+						<p>email@support.com</p>
+					</div>
+				</div>
+				<!-- /contact -->
+
+				<!-- contact -->
+				<div class="col-sm-4">
+					<div class="contact">
+						<i class="fa fa-map-marker"></i>
+						<h3>Address</h3>
+						<p>1739 Bubby Drive</p>
+					</div>
+				</div>
+				<!-- /contact -->
+
+				<!-- contact form -->
+				<div class="col-md-8 col-md-offset-2">
+					<form class="contact-form">
+						<input type="text" class="input" placeholder="Name">
+						<input type="email" class="input" placeholder="Email">
+						<input type="text" class="input" placeholder="Subject">
+						<textarea class="input" placeholder="Message"></textarea>
+						<button class="main-btn">Send message</button>
+					</form>
+				</div>
+				<!-- /contact form -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Contact -->
+
+
+	<!-- Footer -->
+	<footer id="footer" class="sm-padding bg-dark">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<div class="col-md-12">
+
+					<!-- footer logo -->
+					<div class="footer-logo">
+						<a href="index.html"><img src="img/logo-alt.png" alt="logo"></a>
+					</div>
+					<!-- /footer logo -->
+
+					<!-- footer follow -->
+					<ul class="footer-follow">
+						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+						<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+					</ul>
+					<!-- /footer follow -->
+
+					<!-- footer copyright -->
+					<div class="footer-copyright">
+						<p>Copyright © 2017. All Rights Reserved. Designed by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+					</div>
+					<!-- /footer copyright -->
+
+				</div>
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</footer>
+	<!-- /Footer -->
+
+	<!-- Back to top -->
+	<div id="back-to-top"></div>
+	<!-- /Back to top -->
+
+	<!-- Preloader -->
+	<div id="preloader">
+		<div class="preloader">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+	</div>
+	<!-- /Preloader -->
+
+	<!-- jQuery Plugins -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
 </body>
+
 </html>
