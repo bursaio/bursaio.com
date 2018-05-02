@@ -1,0 +1,28 @@
+#instafeed {
+									max-height: 200px;
+									overflow-y: scroll;
+								}
+								#instafeed{
+									list-style-type: none;
+								}
+								#instafeed li{
+									float: left;
+									margin: 5px;
+								}
+								::-webkit-scrollbar {
+								    width: 5px;
+								}
+								 
+								/* Track */
+								::-webkit-scrollbar-track {
+								    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+								}
+								 
+								/* Handle */
+								::-webkit-scrollbar-thumb {
+								    background: #FFF; 
+								    
+								}
+								::-webkit-scrollbar-thumb:window-inactive {
+									background: #FFF;
+								}
