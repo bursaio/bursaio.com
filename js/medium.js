@@ -1,8 +1,5 @@
 $(function () {
 	var $content = $('#Medium');
-	var data = {
-		rss_url: 'https://medium.com/feed/bursa-i-o'
-	};
 	$.get('https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2Fbursa-i-o',function (response) {
 		if (response.status == 'ok') {
 			var output = '';
