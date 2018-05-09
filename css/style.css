@@ -118,6 +118,10 @@ ul, ol {
     list-style: none
 }
 
+.col-md-10{
+    margin-bottom: 20px;
+}
+
 /* -- section  -- */
 
 .section {
@@ -145,6 +149,17 @@ ul, ol {
 
 .bg-dark {
     background-color: #1C1D21;
+}
+
+
+/* footer*/
+p.white-text.text-center{
+    width: 100%;
+    display: inline-block;
+    position: fixed;
+    bottom: -1%;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 
@@ -622,6 +637,18 @@ header {
 .d-flex>a{
     margin:10px;
 }
+
+
+/*
+
+meetup
+
+*/
+
+.meetup{
+    margin-bottom: 40px;
+}
+
 
 
 /*
@@ -1524,7 +1551,27 @@ Medium İçerik
 \*------------------------------------*/
 
 
-@media only screen and (max-width: 991px) {}
+@media only screen and (max-width: 991px) {
+
+    #instafeed{
+        display: flex;
+    }
+
+    #Medium{
+        max-height: 50px;
+    }
+    h2{
+        font-size: 27px;
+    }
+
+    .col-md-10{
+        margin-bottom: 0;
+    }
+
+    .meetup{
+        margin-bottom: 0; 
+    }
+}
 
 @media only screen and (max-width: 767px) {
   .section-header h2.title {
