@@ -1558,7 +1558,7 @@ Medium İçerik
     }
 
     #Medium{
-        max-height: 50px;
+        max-height: 10vh;
     }
     h2{
         font-size: 27px;
@@ -1643,6 +1643,16 @@ Medium İçerik
   .blog-comments .media .media {
       margin:0px -15px;
   }
+
+p.white-text.text-center{
+    font-size: 15px;
+}
+
+#Medium{
+    max-height: 10vh;
+}
+
+
 }
 
 
