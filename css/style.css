@@ -297,12 +297,12 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 }
 
 @media only screen and (max-width: 767px) {
-    #nav.nav-transparent .navbar-brand .logo-alt {
+    /* #nav.nav-transparent .navbar-brand .logo-alt {
         display: none !important;
-    }
-    #nav.nav-transparent .navbar-brand .logo {
+    } */
+    /* #nav.nav-transparent .navbar-brand .logo {
         display: block !important;
-    }
+    } */
 }
 
 
@@ -443,9 +443,6 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 @media only screen and (max-width: 767px) {
     #nav {
         padding: 0px 0px;
-    }
-    #nav.nav-transparent {
-        background: #FFF;
     }
     .main-nav {
         position: fixed;
