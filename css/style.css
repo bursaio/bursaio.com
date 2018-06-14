@@ -653,7 +653,7 @@ Medium İçerik
 */
 #Medium{
     overflow-y: scroll;
-    max-height: 220px;
+    height: 55vh;
 }
 
 #Medium a{
@@ -1554,9 +1554,6 @@ Medium İçerik
         display: flex;
     }
 
-    #Medium{
-        max-height: 10vh;
-    }
     h2{
         font-size: 25px;
     }
@@ -1565,9 +1562,6 @@ Medium İçerik
         margin-bottom: 0;
     }
 
-    .meetup{
-        margin-bottom: 0; 
-    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -1643,10 +1637,6 @@ Medium İçerik
 
 p.white-text.text-center{
     font-size: 15px;
-}
-
-#Medium{
-    max-height: 10vh;
 }
 
 
@@ -1832,4 +1822,9 @@ p.white-text.text-center{
     -webkit-transform:scale(0);
             transform:scale(0);
   }
+}
+
+/*Content*/
+.content{
+    height: 100vh;
 }
