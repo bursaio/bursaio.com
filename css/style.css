@@ -156,7 +156,7 @@ ul, ol {
 p.white-text.text-center{
     width: 100%;
     display: inline-block;
-    position: fixed;
+    position: absolute;
     bottom: -1%;
     left: 50%;
     transform: translateX(-50%);
