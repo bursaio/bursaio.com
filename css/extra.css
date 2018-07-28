@@ -1,5 +1,5 @@
 :root{
-	--gutter-size:37px;
+	--gutter-size: 30px;
 }
 
 #instafeed {
@@ -84,4 +84,14 @@ p.white-text{
 	.meetup {
 		margin-bottom: 20px;
 	}
+}
+
+
+#header{
+	position: relative;
+}
+
+#header p.white-text{
+	position: absolute;
+	bottom: 0;
 }
